@@ -12,6 +12,6 @@ public class TestController {
     @GetMapping
     public ResponseEntity<?> getTest(){
         // I am making mock service
-        return ResponseEntity.ok("Welcome!!");
+        return ResponseEntity.ok("Welcome!! This is from cloud build");
     }
 }
