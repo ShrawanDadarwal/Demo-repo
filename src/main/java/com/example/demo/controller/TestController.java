@@ -12,6 +12,6 @@ public class TestController {
     @GetMapping
     public ResponseEntity<?> getTest(){
         // I am making mock service
-        return ResponseEntity.ok("Welcome!! This is from cloud build");
+        return ResponseEntity.ok("First custom App from Spring boot");
     }
 }
